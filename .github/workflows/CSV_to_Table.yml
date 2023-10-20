@@ -15,7 +15,7 @@ jobs:
         id: csv
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./people.csv
+          path: ./CSVfile_updated.csv
       - name: Create MD
         uses: petems/csv-to-md-table-action@master
         id: csv-table-output
@@ -25,6 +25,6 @@ jobs:
         with:
           message: |
             ${{steps.csv-table-output.outputs.markdown-table}}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
           allow-repeats: true
