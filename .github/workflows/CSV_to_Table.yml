@@ -1,6 +1,6 @@
 name: CSV to Table
 on:
-  pull_request:
+  workflow_dispatch:
     paths:
       - '*/**.csv'
 
