@@ -1,4 +1,4 @@
-name: Create_issues_from_file
+name: test_output
 on:
   workflow_dispatch:
 
