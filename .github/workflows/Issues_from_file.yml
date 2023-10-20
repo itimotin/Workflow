@@ -21,7 +21,7 @@ jobs:
       - name: Run Python script
         id: contents
         run:
-          contents=$( cat CSVfile.xlsx )
+          contents=$( cat CSVfile.csv )
           echo "::set-output name=data::$contents"
   job2:
     runs-on: ubuntu-latest
