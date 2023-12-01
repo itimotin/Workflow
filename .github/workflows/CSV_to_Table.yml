@@ -28,6 +28,8 @@ jobs:
           repo-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
           allow-repeats: true
+      - name: Create Issue
+        uses: JasonEtco/create-an-issue@v2
        
     
     
