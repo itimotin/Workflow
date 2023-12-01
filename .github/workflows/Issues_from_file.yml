@@ -24,6 +24,8 @@ jobs:
           contents=$( cat Text.txt )
           echo "::set-output name=data::$contents"
   job2: 
-	- name: Create an issue
-        uses: JasonEtco/create-an-issue@v2.9.1
+  	runs-on: ubuntu-latest
+   	steps:
+		- name: Create an issue
+	        uses: JasonEtco/create-an-issue@v2.9.1
             
