@@ -23,8 +23,15 @@ jobs:
         run:
           contents=$( cat Text.txt )
           echo "::set-output name=data::$contents"
-  job2:
-    runs-on: ubuntu-latest
-    needs: job1
-    steps: 
-      - run: echo ${{needs.job1.outputs.output1}}
+  job2: 
+	  runs-on: ubuntu-latest
+	  needs: job1
+	  name: Issue Name ${{needs.job1.outputs.output1}}
+	  steps: 
+		  - uses: actions/add-to-project@develop
+     		with:
+        # You can target a project in a different organization
+        # to the issue
+		project-url: 		https://github.com/users/itimotin/projects/1
+	  github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+	  labeled: bug
