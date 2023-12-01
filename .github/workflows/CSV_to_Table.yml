@@ -29,7 +29,6 @@ jobs:
           repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
           allow-repeats: true
   job1:
-    name: Create issue with title
     runs-on: ubuntu-latest
     steps:
       - name: Create issue title
