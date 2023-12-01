@@ -1,4 +1,4 @@
-name: Create_issues_from_file
+name: Create issues from file
 on:
   workflow_dispatch:
 
