@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0B442B32B2331A600BB1BA4 /* WorkflowMockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B442B22B2331A600BB1BA4 /* WorkflowMockApp.swift */; };
+		E0B442B52B2331A600BB1BA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B442B42B2331A600BB1BA4 /* ContentView.swift */; };
+		E0B442B72B2331A700BB1BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B442B62B2331A700BB1BA4 /* Assets.xcassets */; };
+		E0B442BA2B2331A700BB1BA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B442B92B2331A700BB1BA4 /* Preview Assets.xcassets */; };
+		E0B442C52B2331A700BB1BA4 /* WorkflowMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B442C42B2331A700BB1BA4 /* WorkflowMockTests.swift */; };
+		E0B442CF2B2331A700BB1BA4 /* WorkflowMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B442CE2B2331A700BB1BA4 /* WorkflowMockUITests.swift */; };
+		E0B442D12B2331A700BB1BA4 /* WorkflowMockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B442D02B2331A700BB1BA4 /* WorkflowMockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0B442C12B2331A700BB1BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0B442A72B2331A600BB1BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0B442AE2B2331A600BB1BA4;
+			remoteInfo = WorkflowMock;
+		};
+		E0B442CB2B2331A700BB1BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0B442A72B2331A600BB1BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0B442AE2B2331A600BB1BA4;
+			remoteInfo = WorkflowMock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0B442AF2B2331A600BB1BA4 /* WorkflowMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkflowMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B442B22B2331A600BB1BA4 /* WorkflowMockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowMockApp.swift; sourceTree = "<group>"; };
+		E0B442B42B2331A600BB1BA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0B442B62B2331A700BB1BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0B442B92B2331A700BB1BA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0B442BB2B2331A700BB1BA4 /* WorkflowMock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkflowMock.entitlements; sourceTree = "<group>"; };
+		E0B442C02B2331A700BB1BA4 /* WorkflowMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkflowMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B442C42B2331A700BB1BA4 /* WorkflowMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowMockTests.swift; sourceTree = "<group>"; };
+		E0B442CA2B2331A700BB1BA4 /* WorkflowMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkflowMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B442CE2B2331A700BB1BA4 /* WorkflowMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowMockUITests.swift; sourceTree = "<group>"; };
+		E0B442D02B2331A700BB1BA4 /* WorkflowMockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowMockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0B442AC2B2331A600BB1BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B442BD2B2331A700BB1BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B442C72B2331A700BB1BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0B442A62B2331A600BB1BA4 = {
+			isa = PBXGroup;
+			children = (
+				E0B442B12B2331A600BB1BA4 /* WorkflowMock */,
+				E0B442C32B2331A700BB1BA4 /* WorkflowMockTests */,
+				E0B442CD2B2331A700BB1BA4 /* WorkflowMockUITests */,
+				E0B442B02B2331A600BB1BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0B442B02B2331A600BB1BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0B442AF2B2331A600BB1BA4 /* WorkflowMock.app */,
+				E0B442C02B2331A700BB1BA4 /* WorkflowMockTests.xctest */,
+				E0B442CA2B2331A700BB1BA4 /* WorkflowMockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0B442B12B2331A600BB1BA4 /* WorkflowMock */ = {
+			isa = PBXGroup;
+			children = (
+				E0B442B22B2331A600BB1BA4 /* WorkflowMockApp.swift */,
+				E0B442B42B2331A600BB1BA4 /* ContentView.swift */,
+				E0B442B62B2331A700BB1BA4 /* Assets.xcassets */,
+				E0B442BB2B2331A700BB1BA4 /* WorkflowMock.entitlements */,
+				E0B442B82B2331A700BB1BA4 /* Preview Content */,
+			);
+			path = WorkflowMock;
+			sourceTree = "<group>";
+		};
+		E0B442B82B2331A700BB1BA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0B442B92B2331A700BB1BA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0B442C32B2331A700BB1BA4 /* WorkflowMockTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0B442C42B2331A700BB1BA4 /* WorkflowMockTests.swift */,
+			);
+			path = WorkflowMockTests;
+			sourceTree = "<group>";
+		};
+		E0B442CD2B2331A700BB1BA4 /* WorkflowMockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0B442CE2B2331A700BB1BA4 /* WorkflowMockUITests.swift */,
+				E0B442D02B2331A700BB1BA4 /* WorkflowMockUITestsLaunchTests.swift */,
+			);
+			path = WorkflowMockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0B442AE2B2331A600BB1BA4 /* WorkflowMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B442D42B2331A700BB1BA4 /* Build configuration list for PBXNativeTarget "WorkflowMock" */;
+			buildPhases = (
+				E0B442AB2B2331A600BB1BA4 /* Sources */,
+				E0B442AC2B2331A600BB1BA4 /* Frameworks */,
+				E0B442AD2B2331A600BB1BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkflowMock;
+			productName = WorkflowMock;
+			productReference = E0B442AF2B2331A600BB1BA4 /* WorkflowMock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0B442BF2B2331A700BB1BA4 /* WorkflowMockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B442D72B2331A700BB1BA4 /* Build configuration list for PBXNativeTarget "WorkflowMockTests" */;
+			buildPhases = (
+				E0B442BC2B2331A700BB1BA4 /* Sources */,
+				E0B442BD2B2331A700BB1BA4 /* Frameworks */,
+				E0B442BE2B2331A700BB1BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0B442C22B2331A700BB1BA4 /* PBXTargetDependency */,
+			);
+			name = WorkflowMockTests;
+			productName = WorkflowMockTests;
+			productReference = E0B442C02B2331A700BB1BA4 /* WorkflowMockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0B442C92B2331A700BB1BA4 /* WorkflowMockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B442DA2B2331A700BB1BA4 /* Build configuration list for PBXNativeTarget "WorkflowMockUITests" */;
+			buildPhases = (
+				E0B442C62B2331A700BB1BA4 /* Sources */,
+				E0B442C72B2331A700BB1BA4 /* Frameworks */,
+				E0B442C82B2331A700BB1BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0B442CC2B2331A700BB1BA4 /* PBXTargetDependency */,
+			);
+			name = WorkflowMockUITests;
+			productName = WorkflowMockUITests;
+			productReference = E0B442CA2B2331A700BB1BA4 /* WorkflowMockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0B442A72B2331A600BB1BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E0B442AE2B2331A600BB1BA4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E0B442BF2B2331A700BB1BA4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E0B442AE2B2331A600BB1BA4;
+					};
+					E0B442C92B2331A700BB1BA4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E0B442AE2B2331A600BB1BA4;
+					};
+				};
+			};
+			buildConfigurationList = E0B442AA2B2331A600BB1BA4 /* Build configuration list for PBXProject "WorkflowMock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0B442A62B2331A600BB1BA4;
+			productRefGroup = E0B442B02B2331A600BB1BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0B442AE2B2331A600BB1BA4 /* WorkflowMock */,
+				E0B442BF2B2331A700BB1BA4 /* WorkflowMockTests */,
+				E0B442C92B2331A700BB1BA4 /* WorkflowMockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0B442AD2B2331A600BB1BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B442BA2B2331A700BB1BA4 /* Preview Assets.xcassets in Resources */,
+				E0B442B72B2331A700BB1BA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B442BE2B2331A700BB1BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B442C82B2331A700BB1BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0B442AB2B2331A600BB1BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B442B52B2331A600BB1BA4 /* ContentView.swift in Sources */,
+				E0B442B32B2331A600BB1BA4 /* WorkflowMockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B442BC2B2331A700BB1BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B442C52B2331A700BB1BA4 /* WorkflowMockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B442C62B2331A700BB1BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B442CF2B2331A700BB1BA4 /* WorkflowMockUITests.swift in Sources */,
+				E0B442D12B2331A700BB1BA4 /* WorkflowMockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0B442C22B2331A700BB1BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0B442AE2B2331A600BB1BA4 /* WorkflowMock */;
+			targetProxy = E0B442C12B2331A700BB1BA4 /* PBXContainerItemProxy */;
+		};
+		E0B442CC2B2331A700BB1BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0B442AE2B2331A600BB1BA4 /* WorkflowMock */;
+			targetProxy = E0B442CB2B2331A700BB1BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0B442D22B2331A700BB1BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0B442D32B2331A700BB1BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E0B442D52B2331A700BB1BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorkflowMock/WorkflowMock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkflowMock/Preview Content\"";
+				DEVELOPMENT_TEAM = KTHHTBQ429;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.WorkflowMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0B442D62B2331A700BB1BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorkflowMock/WorkflowMock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkflowMock/Preview Content\"";
+				DEVELOPMENT_TEAM = KTHHTBQ429;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.WorkflowMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E0B442D82B2331A700BB1BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTHHTBQ429;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.WorkflowMockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkflowMock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkflowMock";
+			};
+			name = Debug;
+		};
+		E0B442D92B2331A700BB1BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTHHTBQ429;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.WorkflowMockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkflowMock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkflowMock";
+			};
+			name = Release;
+		};
+		E0B442DB2B2331A700BB1BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTHHTBQ429;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.WorkflowMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WorkflowMock;
+			};
+			name = Debug;
+		};
+		E0B442DC2B2331A700BB1BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTHHTBQ429;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.WorkflowMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WorkflowMock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0B442AA2B2331A600BB1BA4 /* Build configuration list for PBXProject "WorkflowMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B442D22B2331A700BB1BA4 /* Debug */,
+				E0B442D32B2331A700BB1BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B442D42B2331A700BB1BA4 /* Build configuration list for PBXNativeTarget "WorkflowMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B442D52B2331A700BB1BA4 /* Debug */,
+				E0B442D62B2331A700BB1BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B442D72B2331A700BB1BA4 /* Build configuration list for PBXNativeTarget "WorkflowMockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B442D82B2331A700BB1BA4 /* Debug */,
+				E0B442D92B2331A700BB1BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B442DA2B2331A700BB1BA4 /* Build configuration list for PBXNativeTarget "WorkflowMockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B442DB2B2331A700BB1BA4 /* Debug */,
+				E0B442DC2B2331A700BB1BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0B442A72B2331A600BB1BA4 /* Project object */;
+}
