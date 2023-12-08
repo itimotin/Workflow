@@ -1,13 +1,17 @@
-name: Add to project
+name: Add issue to project
 
 on:
+  workflow_dispatch:
+  push: 
+    branches:
+    - develop
   issues:
     types:
       - opened
 
 jobs:
   add-to-project:
-    name: Add issue to the project
+    name: Start adding issue to the project
     runs-on: ubuntu-latest
     steps:
       - uses: actions/add-to-project@main
